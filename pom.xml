@@ -21,8 +21,13 @@
   </properties>
 
   <dependencies>
- 
-  </dependencies>
+        <!-- quarkus dependencies -->
+        <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-arc</artifactId>
+            <version>3.1.2.Final</version>
+        </dependency>
+    </dependencies>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->

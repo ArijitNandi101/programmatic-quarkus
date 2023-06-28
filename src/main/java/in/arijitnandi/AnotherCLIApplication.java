@@ -10,6 +10,7 @@ public class AnotherCLIApplication implements QuarkusApplication {
 
     @Override
     public int run(String... args) throws Exception {
+        Thread.sleep(5000);
         loggingService.log("This message is from " + this.getClass().getTypeName());
         return 0;
     }

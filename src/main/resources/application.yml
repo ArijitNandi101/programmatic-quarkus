@@ -1,0 +1,9 @@
+quarkus:
+  devservices:
+    enabled: false
+  http:
+    host-enabled: false
+  jackson:
+    timezone: Asia/Kolkata
+  package:
+    type: uber-jar

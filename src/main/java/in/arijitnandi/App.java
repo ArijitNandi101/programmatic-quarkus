@@ -7,11 +7,10 @@ import io.quarkus.runtime.annotations.QuarkusMain;
 public class App {
 
     public static void main(String[] args) {
-
-        Quarkus.run(AnotherCLIApplication.class);
+        Quarkus.run(HelloWorldCLIApplication.class);
         Quarkus.blockingExit();
 
-        Quarkus.run(HelloWorldCLIApplication.class);
+        Quarkus.run(AnotherCLIApplication.class);
         Quarkus.blockingExit();
 
         System.exit(0);
